@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { addTodo } from '../Features/todoSclice';
+import { addTodo } from '../../Features/todoSclice';
 
 function TodoForm() {
     const dispatch = useDispatch();
@@ -23,7 +23,7 @@ function TodoForm() {
                 className='flex'>
                 <input
                     type='text'
-                    placeholder='Enter Your Todos......'
+                    placeholder='Enter Your Todos . . . .'
                     className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
                     onChange={(e) => setInput(e.target.value)}
                     value={input}
