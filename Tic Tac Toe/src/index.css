@@ -1,0 +1,9 @@
+@import "tailwindcss";
+:root{
+    --bg-light:#087f8c;
+    --bg-box:#5f9ea0;
+    --button-color:#108de0;
+    --button-hover:#006cb3;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
